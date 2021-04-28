@@ -37,7 +37,7 @@ namespace ApiFormTester
             // 
             // jokeBtn
             // 
-            this.jokeBtn.Location = new System.Drawing.Point(92, 146);
+            this.jokeBtn.Location = new System.Drawing.Point(90, 165);
             this.jokeBtn.Name = "jokeBtn";
             this.jokeBtn.Size = new System.Drawing.Size(112, 35);
             this.jokeBtn.TabIndex = 0;
@@ -48,7 +48,7 @@ namespace ApiFormTester
             // jokeCategoriesCbx
             // 
             this.jokeCategoriesCbx.FormattingEnabled = true;
-            this.jokeCategoriesCbx.Location = new System.Drawing.Point(114, 207);
+            this.jokeCategoriesCbx.Location = new System.Drawing.Point(112, 217);
             this.jokeCategoriesCbx.Name = "jokeCategoriesCbx";
             this.jokeCategoriesCbx.Size = new System.Drawing.Size(119, 23);
             this.jokeCategoriesCbx.TabIndex = 1;
@@ -56,16 +56,16 @@ namespace ApiFormTester
             // jokeTxt
             // 
             this.jokeTxt.Enabled = false;
-            this.jokeTxt.Location = new System.Drawing.Point(47, 35);
+            this.jokeTxt.Location = new System.Drawing.Point(46, 18);
             this.jokeTxt.Multiline = true;
             this.jokeTxt.Name = "jokeTxt";
-            this.jokeTxt.Size = new System.Drawing.Size(197, 91);
+            this.jokeTxt.Size = new System.Drawing.Size(197, 136);
             this.jokeTxt.TabIndex = 2;
             // 
             // categoryLbl
             // 
             this.categoryLbl.AutoSize = true;
-            this.categoryLbl.Location = new System.Drawing.Point(42, 210);
+            this.categoryLbl.Location = new System.Drawing.Point(40, 220);
             this.categoryLbl.Name = "categoryLbl";
             this.categoryLbl.Size = new System.Drawing.Size(66, 15);
             this.categoryLbl.TabIndex = 3;
@@ -75,7 +75,7 @@ namespace ApiFormTester
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(295, 338);
+            this.ClientSize = new System.Drawing.Size(295, 280);
             this.Controls.Add(this.categoryLbl);
             this.Controls.Add(this.jokeTxt);
             this.Controls.Add(this.jokeCategoriesCbx);
